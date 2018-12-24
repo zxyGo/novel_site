@@ -1,4 +1,4 @@
-# novel3.0
+# 自建小说网站
 
 ## Project setup
 ```
