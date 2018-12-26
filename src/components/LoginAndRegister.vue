@@ -54,13 +54,13 @@
         Code: '',
         name: '',
         password: '',
-        type: 1, //1-登录/2-注册
+        type: 1, // 1-登录/2-注册
         clearable: {
           visible: true,
           blurHidden: true
         },
         eye: {
-          open: true,
+          open: false,
           reverse: false
         },
       }

@@ -28,8 +28,15 @@
       this.getAllPage();
     },
     methods: {
-      goChapter: function () {
-
+      goChapter: function (data) {
+        console.log(data);
+        this.$router.push({
+          name: "chapter",
+          query: {
+            novelId: data.id,
+            name: data.name
+          }
+        })
       },
       getAllPage: function () {
         this.$http.get(this.$url + 'api/novel/list').then(res => {
